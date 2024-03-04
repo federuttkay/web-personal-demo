@@ -8,7 +8,7 @@ const NavBar = () => {
 	const menuItems = [
 		{ id: 1, label: "Principal", path: "/" },
 		{ id: 2, label: "CV", path: "/cv" },
-		{ id: 3, label: "Demo", path: "/demo" },
+		{ id: 3, label: "Portfolio", path: "/portfolio" },
 		{ id: 4, label: "GitHub", path: "/github" },
 		{ id: 5, label: "Contacto", path: "/contacto" },
 	];
@@ -27,10 +27,12 @@ const NavBar = () => {
 						className={
 							"nav__item" + (selectedMenu === item.id ? " selected" : "")
 						}
-						onClick={() => handleSelectMenu(item.id)}
+						// onClick={() => handleSelectMenu(item.id)}
 						key={item.id}
 					>
-						<Link to={item.path}>{item.label}</Link>
+						<Link to={item.path} onClick={() => handleSelectMenu(item.id)}>
+							{item.label}
+						</Link>
 					</li>
 				))}
 			</ul>

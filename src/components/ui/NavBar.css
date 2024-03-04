@@ -5,7 +5,7 @@
 }
 
 .nav__items {
-	gap: 2rem;
+	gap: 1rem;
 }
 
 .nav__item {
@@ -21,4 +21,10 @@
 .nav__item.selected {
 	border-bottom: 2px solid var(--clr-accent);
 	color: black;
+}
+
+@media screen and (width > 800px) {
+	.nav__items {
+		gap: 2rem;
+	}
 }
