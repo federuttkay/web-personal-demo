@@ -4,6 +4,11 @@
 	margin-block: 1rem;
 }
 
+.title-logo {
+	/* font-weight: 700; */
+	color: var(--clr-neutral-600);
+}
+
 .nav__items {
 	gap: 1rem;
 }
@@ -24,6 +29,12 @@
 }
 
 @media screen and (width > 800px) {
+	.nav__items {
+		gap: 2rem;
+	}
+}
+
+@media screen and (width > 750px) {
 	.nav__items {
 		gap: 2rem;
 	}

@@ -18,7 +18,7 @@ const NavBar = () => {
 	};
 	return (
 		<nav className="nav flex flex-between">
-			<Link to="/" onClick={() => handleSelectMenu(1)}>
+			<Link className="title-logo" to="/" onClick={() => handleSelectMenu(1)}>
 				Federico Ruttkay
 			</Link>
 			<ul className="nav__items flex">

@@ -1,0 +1,23 @@
+.web {
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+}
+
+.web__title {
+	color: var(--clr-neutral-700);
+}
+
+.web__description {
+	color: var(--clr-neutral-600);
+	margin-top: 1em;
+}
+
+.web__github-code {
+	color: var(--clr-neutral-700);
+	margin-top: 0.75em;
+	font-weight: 700;
+}
+
+.web__content {
+	height: min-content;
+}

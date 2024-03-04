@@ -12,7 +12,7 @@ const Home = () => {
 			</p>
 			<p>
 				De momento me encuentro en búsqueda de mi primera experiencia laboral en
-				el área, y pretendo a través de este medio mostrar algunas de mis
+				el rubro, y pretendo a través de este medio mostrar algunas de mis
 				capacidades, por lo que los invito a leer mi CV - junto con la carta de
 				presentación que lo acompaña - y ver el resto de los recursos que se
 				presentan.
