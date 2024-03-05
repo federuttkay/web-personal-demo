@@ -1,6 +1,12 @@
 .web {
-	grid-template-columns: 1fr 1fr;
+	max-width: 550px;
+	margin-inline: auto;
+	margin-bottom: 3rem;
 	gap: 2rem;
+}
+
+.web:last-child {
+	margin-bottom: 1.5rem;
 }
 
 .web__title {
@@ -20,4 +26,12 @@
 
 .web__content {
 	height: min-content;
+}
+
+@media screen and (width > 800px) {
+	.web {
+		max-width: none;
+		grid-template-columns: 1fr 1fr;
+		gap: 2rem;
+	}
 }

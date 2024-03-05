@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 import { useState } from "react";
+import iconMenuOpen from "../../assets/images/icon-menu.svg";
+import iconMenuClose from "../../assets/images/icon-close-menu.svg";
 
 const NavBar = () => {
 	const [selectedMenu, setSelectedMenu] = useState(1);
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const menuItems = [
 		{ id: 1, label: "Principal", path: "/" },
@@ -16,18 +19,18 @@ const NavBar = () => {
 	const handleSelectMenu = (id: number) => {
 		setSelectedMenu(id);
 	};
+
 	return (
 		<nav className="nav flex flex-between">
 			<Link className="title-logo" to="/" onClick={() => handleSelectMenu(1)}>
 				Federico Ruttkay
 			</Link>
-			<ul className="nav__items flex">
+			<ul className={"nav__items" + (isMenuOpen ? " menu-open" : "")}>
 				{menuItems.map((item) => (
 					<li
 						className={
 							"nav__item" + (selectedMenu === item.id ? " selected" : "")
 						}
-						// onClick={() => handleSelectMenu(item.id)}
 						key={item.id}
 					>
 						<Link to={item.path} onClick={() => handleSelectMenu(item.id)}>
@@ -36,6 +39,12 @@ const NavBar = () => {
 					</li>
 				))}
 			</ul>
+			<div
+				className="open-close-btn"
+				onClick={() => setIsMenuOpen(!isMenuOpen)}
+			>
+				{isMenuOpen ? <img src={iconMenuClose} /> : <img src={iconMenuOpen} />}
+			</div>
 		</nav>
 	);
 };
