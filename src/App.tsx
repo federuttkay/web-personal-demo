@@ -14,8 +14,8 @@ function App() {
 				<NavBar />
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/cv" element={<Cv />} />
 					<Route path="/portfolio" element={<Demo />} />
+					<Route path="/cv" element={<Cv />} />
 					<Route path="/github" element={<Github />} />
 					<Route path="/contacto" element={<Contacto />} />
 					<Route path="*" element={<p>La página no existe.</p>} />
