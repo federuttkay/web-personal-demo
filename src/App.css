@@ -71,6 +71,18 @@ h1,
 	margin-bottom: 3rem;
 }
 
+.main-title h1 {
+	margin-bottom: 0.5rem;
+}
+
+.main-title p {
+	color: var(--clr-neutral-500);
+}
+
+.main-title-dark p {
+	color: var(--clr-neutral-600);
+}
+
 p {
 	margin-bottom: 1.5rem;
 	line-height: 1.5;
@@ -90,14 +102,6 @@ p a {
 
 .flex-between {
 	justify-content: space-between;
-}
-
-.main-title h1 {
-	margin-bottom: 0.5rem;
-}
-
-.main-title p {
-	color: var(--clr-neutral-500);
 }
 
 .link {
