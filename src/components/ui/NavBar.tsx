@@ -30,7 +30,9 @@ const NavBar = () => {
 						}
 						key={item.id}
 					>
-						<Link to={item.path}>{item.label}</Link>
+						<Link to={item.path} onClick={() => setIsMenuOpen(false)}>
+							{item.label}
+						</Link>
 					</li>
 				))}
 			</ul>

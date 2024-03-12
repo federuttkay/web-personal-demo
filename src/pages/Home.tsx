@@ -10,6 +10,13 @@ const Home = () => {
 				donde incluyo mi CV, muestro algunos ejemplos de páginas que he
 				desarrollado, y doy acceso a los códigos de ellas en GitHub.
 			</p>
+			<p style={{ color: "#999" }}>
+				Opción alternativa al primer párrafo: Mi nombre es Federico, y esta es
+				mi página personal de presentación, con la cual no pretengo ganar ningún
+				premio al diseño pero si centralizar la información que considero
+				importante, como ser mi CV, ejemplos de páginas que he desarrollado, y
+				los códigos de ellas en GitHub.
+			</p>
 			<p>
 				De momento me encuentro en búsqueda de mi primera experiencia laboral en
 				el rubro, y pretendo a través de este medio mostrar algunas de mis
