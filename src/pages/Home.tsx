@@ -19,7 +19,7 @@ const Home = () => {
 			</p>
 			<p>
 				Agradezco desde ya el haber sido considerado para una posición dentro de
-				su empresa, y agradezco toda oportunidad que se me pueda brindar.
+				su empresa, junto con toda oportunidad que se me pueda brindar.
 			</p>
 		</main>
 	);
