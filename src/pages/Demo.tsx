@@ -14,7 +14,7 @@ const Demo = () => {
 					Los siguientes ejemplos han sido desarrollados en base a ejercicios de
 					la web Front End Mentor. Si bien los diseños son obtenidos de esa web,
 					y como verán el código está en inglés (refiriéndome principalmente las
-					clases y los nombre de las funciones), todo ello fue escrito por mi.
+					clases y los nombres de las funciones), todo ello fue escrito por mi.
 					Esto se debe a que los cursos que he hecho siempre fueron en inglés, y
 					dado que los tags de los elementos están en inglés, me acostumbré a
 					escribir el resto del código tabién de esa manera.

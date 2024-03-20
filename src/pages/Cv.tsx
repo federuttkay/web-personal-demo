@@ -3,9 +3,9 @@ const Cv = () => {
 		<main className="grid">
 			<h1>Currículum Vitae</h1>
 			<a
-				href="/public/CV y Carta de presentación - Federico Ruttkay.pdf"
+				href="/public/CV.pdf"
 				className="link"
-				download="CV y Carta de presentación - Federico Ruttkay.pdf"
+				download="CV.pdf"
 			>
 				Descargar mi CV
 			</a>
